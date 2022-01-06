@@ -9,4 +9,4 @@
   - name: install web-server
     apt:
      name: "{{mywebserverpackforubuntu}}"
-     state: absenthhhh
+     state: absent
