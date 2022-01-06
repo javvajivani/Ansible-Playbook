@@ -4,5 +4,5 @@
     tasks:
     - name: install git
       apt:
-        name: apache2
+        name: "{{mywebserverpackforubuntu}}"
         state: present

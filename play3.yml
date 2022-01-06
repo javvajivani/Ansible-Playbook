@@ -1,12 +1,12 @@
 ---
-- hosts: all
+- hosts: webserver
   become: yes
   tasks:  
   - name: install git
     apt:
-     name: apache2
+     name: "{{mywebserverpackforubuntu}}"
      state: present
   - name: install web-server
     apt:
-     name: apache2
+     name: "{{mywebserverpackforubuntu}}"
      state: present
