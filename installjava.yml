@@ -4,5 +4,5 @@
   tasks:  
   - name: install java
     apt:
-     name: default.jdk
+     name: default-jdk
      state: present
