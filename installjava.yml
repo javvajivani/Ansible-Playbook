@@ -4,5 +4,5 @@
   tasks:  
   - name: install java
     apt:
-     name: java-1.7.0-openjdk-devel
+     name: openjdk-devel
      state: present
