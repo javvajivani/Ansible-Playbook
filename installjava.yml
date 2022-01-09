@@ -4,5 +4,5 @@
   tasks:  
   - name: install java
     apt:
-     name: openjdk-devel
+     name: default.jdk
      state: present
