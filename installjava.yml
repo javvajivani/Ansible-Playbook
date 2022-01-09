@@ -1,5 +1,5 @@
 ---
-- hosts: 172.31.34.103
+- hosts: webserver
   become: yes
   tasks:  
   - name: install java
